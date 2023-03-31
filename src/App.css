@@ -1,6 +1,24 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.App div > * {
+  width: 150px;
+  border: none; /* Butonların sınırını kaldır */
+  padding: 5px;
+  margin: 10px 0 0 0;
+}
+
+.App div button:first-child {
+  text-align: left;
+}
+
+.App div button:nth-child(2) {
+  text-align: right;
+}
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;

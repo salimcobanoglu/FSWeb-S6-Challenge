@@ -29,12 +29,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Karakterler</h1>
-      <div>
-        {starwars.map((x) => (
-          <Karakter starwars={x} />
-        ))}
-      </div>
+      <h1 className="Header">React Wars &gt;</h1>
+
+      {starwars.map((x) => (
+        <Karakter data={x} />
+      ))}
     </div>
   );
 };
