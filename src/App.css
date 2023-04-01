@@ -1,26 +1,15 @@
 .App {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.App div > * {
-  width: 150px;
-  border: none; /* Butonların sınırını kaldır */
-  padding: 5px;
-  margin: 10px 0 0 0;
 }
 
-.App div button:first-child {
-  text-align: left;
-}
-
-.App div button:nth-child(2) {
-  text-align: right;
-}
+/* write your parent styles in here for your App.js */
 
 .Header {
-  color: #443e3e;
+  color: white;
+  margin: 20px;
   text-shadow: 1px 1px 5px #fff;
+  font-family: "Audiowide", cursive;
 }
-/* write your parent styles in here for your App.js */
+ul {
+  list-style-type: none;
+}
